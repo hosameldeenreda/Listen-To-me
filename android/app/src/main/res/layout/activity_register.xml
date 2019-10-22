@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".RegisterActivity">
+
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:background="@drawable/logoo"
+            android:textStyle="bold"/>
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edt_username"
+            android:layout_marginTop="10dp"
+            android:hint="الاسم"
+            app:met_floatingLabel="normal"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edt_email"
+            android:hint="البريد الالكترونى"
+            android:textColorHint="#fff"
+            android:textColor="#fff"
+            android:inputType="textEmailAddress"
+            app:met_floatingLabel="normal"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edt_password"
+            android:hint="الرقم السرى"
+            android:textColorHint="#fff"
+            android:textColor="#fff"
+            android:gravity="right"
+            android:inputType="textPassword"
+            app:met_floatingLabel="normal"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edt_password2"
+            android:hint="من فضلك اختر هويتك؟"
+            android:textColorHint="#fff"
+            android:textColor="#fff"
+            android:gravity="right"
+            android:inputType="text"
+            app:met_floatingLabel="normal"/>
+        <Spinner
+            android:id="@+id/spinner"
+            android:textColorHint="#fff"
+            android:textColor="#fff"
+            android:layout_marginLeft="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_register"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:background="#000"
+            android:layout_marginTop="10dp"
+            android:text="انشاء حساب جديد"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+
+</RelativeLayout>

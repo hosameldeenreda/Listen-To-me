@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".Helper">
+
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:text="Refresh"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        android:background="@drawable/ref"
+        android:id="@+id/Refresh"
+        android:textColor="#fff"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/logoo"
+        />
+
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#000"
+        android:layout_marginTop="250dp"
+        android:dividerHeight="1dp"
+        android:listSelector="#D3D3D3" />
+
+</RelativeLayout>
+
+

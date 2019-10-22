@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "801680495422",
+    "firebase_url": "https://graduationproject-f656f.firebaseio.com",
+    "project_id": "graduationproject-f656f",
+    "storage_bucket": "graduationproject-f656f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801680495422:android:0c38295f8b66c786",
+        "android_client_info": {
+          "package_name": "com.example.listentomiii"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "801680495422-qt6p6gksm551f2sh5c19qsnp2ousmmc7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.listentomiii",
+            "certificate_hash": "ae322c55e33c9e2492d300f40aa040db271bfc18"
+          }
+        },
+        {
+          "client_id": "801680495422-k0ouqmucuqorrnno4km5n2ila7mpaenn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwJUbPHhTU0yaCnTEbk6AHcQJRIjkrPkI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "801680495422-k0ouqmucuqorrnno4km5n2ila7mpaenn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
